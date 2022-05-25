@@ -30,5 +30,5 @@ variable "instance_image" {
 
 variable "vpc_name" {
   description = "Virtual Network Name"
-  default = "terraform-external-new-hi-network"
+  default = "terraform-external-hi-network"
 }
