@@ -15,7 +15,7 @@ variable "zone" {
 
 variable "instance_name" {
   description = "VM Instance Name"
-  default = "terraform-external-hi-instance"
+  default = "terraform-external-sy-instance"
 }
 
 variable "instance_type" {
@@ -25,10 +25,10 @@ variable "instance_type" {
 
 variable "instance_image" {
   description = "VM Instance Image"
-  default = "debian-cloud/debian-9"
+  default = "debian-10-buster-v20220719"
 }
 
 variable "vpc_name" {
   description = "Virtual Network Name"
-  default = "terraform-external-hi-network"
+  default = "terraform-external-sy-network"
 }
